@@ -1,0 +1,10 @@
+#+TITLE:
+A multithreaded bruteforcer for argon2 hashes
+Usage:
+#+begin_src bash
+  ./build/argon2bruteforce -h
+Usage: argon2bruteforce <HASH> 
+Bruteforce words on STDIN
+  -t	 n_threads
+  -v	 verbose output
+#+end_src
